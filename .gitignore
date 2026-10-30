@@ -1,0 +1,9 @@
+.DS_Store
+__pycache__/
+*.pyc
+dist/
+.build/
+.env
+.env.*
+*.key
+*.pem

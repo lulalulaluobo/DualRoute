@@ -1,0 +1,8 @@
+{
+  "source": "https://ftp.apnic.net/stats/apnic/delegated-apnic-latest",
+  "source_sha256": "3defc6cac4be9d45f8b1d0c980c8c7d5f28281d44e370f72463d6f723caad6a0",
+  "source_header": "2|apnic|20261030|89622|19830613|20261029|+1000",
+  "cidr_count": 5498,
+  "fetched_date": "2026-10-30",
+  "method": "APNIC CN allocated/assigned IPv4 ranges, collapsed CIDRs"
+}
