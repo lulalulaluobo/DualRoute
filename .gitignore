@@ -7,3 +7,5 @@ dist/
 .env.*
 *.key
 *.pem
+openwrt/root/usr/share/dualroute/cn-ipv4.txt
+openwrt/root/usr/share/dualroute/cn-ipv4-source.json

@@ -1,0 +1,7 @@
+config settings 'main'
+ option mode 'openclash'
+ option exit_node '100.119.76.101'
+ option gateway '192.168.2.1'
+ option lan 'br-lan'
+ option subnet '192.168.2.0/24'
+ option dns_log '1'

@@ -1,0 +1,8 @@
+#!/bin/sh
+umask 077
+mkdir -p /tmp/dualroute
+case "$1" in
+ status|connections|logs|selftest) exec lua /usr/lib/dualroute/control.lua "$@" ;;
+ watchdog) exec flock -n /var/lock/dualroute.lock lua /usr/lib/dualroute/control.lua "$@" ;;
+ *) exec flock /var/lock/dualroute.lock lua /usr/lib/dualroute/control.lua "$@" ;;
+esac
